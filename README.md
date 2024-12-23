@@ -62,3 +62,15 @@ wget https://raw.githubusercontent.com/uureel/batocera.pro/main/youtubetv/yttv.s
 Licenced under GNU Licence, Forked from uureel/batocera.pro
 
 <a href='https://github.com/batocera-linux/' target='_blank'>Official Batocera GitHub</a>
+
+
+
+
+
+
+Você está com sorte, embora Batocera.pro esteja depreciado, você ainda pode executar os programas usando o link direto. Dica útil, vá até o repositório e olhe o .sh para o instalador do que você quer instalar, se houver alguma menção de https://Batocera.pro, então não funcionará, mas se não houver menção, então ainda funcionará.
+No seu caso, o script de instalação clonehero puxa tudo diretamente do GitHub, então você pode instalá-lo com o seguinte comando;
+
+curl -L https://github.com/uureel/batocera.pro/raw/main/clonehero/clonehero.sh | bash
+
+Não posso garantir que funcionará, me avise se não funcionar e eu vou procurar criar um script alternativo
